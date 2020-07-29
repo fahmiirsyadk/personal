@@ -1,21 +1,6 @@
-# NextJS Default Template
+# Fahmiirsyadk | My personal website
+COLLECTION OF POETRIES, NOTES, THOUGHTS, ANYTHING COMES UP INTO MY MIND.
 
-This is a NextJS based template with following setup:
-
-- Full Tailwind config & basic css scaffold (+ production setup w/ purge-css & cssnano)
-- Reason + ReasonReact
-- Basic Reason Bindings for Next
-- Preconfigured Dependencies: `reason-react`, `bs-fetch`, `@glennsl/bs-json`
-
-## How to remove unneeded Reason bindings
-
-```
-npm rm @glennsl/bs-json --save
-npm rm bs-fetch --save
-```
-
-After removing the dependency, make sure to update your `bsconfig.js`
-dependencies as well.
 
 ## Development
 
@@ -29,18 +14,6 @@ In another tab, run the Next dev server:
 
 ```
 npm run dev
-```
-
-## Useful commands
-
-Build CSS seperately via `postcss` (useful for debugging)
-
-```
-# Devmode
-postcss styles/main.css -o test.css
-
-# Production
-NODE_ENV=production postcss styles/main.css -o test.css
 ```
 
 ## Test production setup with Next
