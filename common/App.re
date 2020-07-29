@@ -42,12 +42,10 @@ let make = (props: props): React.element => {
   <CacheProvider value=cache>
     globalStyles
     <Provider>
-      <CrumbContext>
-        {switch (Next.Router.useRouter().route) {
-         | "/" => <SecondaryLayout> <div> content </div> </SecondaryLayout>
-         | _ => <MainLayout> content </MainLayout>
-         }}
-      </CrumbContext>
+      {switch (Next.Router.useRouter().route) {
+       | "/" => <SecondaryLayout> <div> content </div> </SecondaryLayout>
+       | _ => <MainLayout> content </MainLayout>
+       }}
     </Provider>
   </CacheProvider>;
 };

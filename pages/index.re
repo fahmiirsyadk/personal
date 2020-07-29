@@ -1,3 +1,6 @@
+[@bs.module "../common/useCanvas"]
+external useCanvas: unit => unit = "useCanvas";
+
 open Util.ReactStuff;
 open Css;
 
@@ -22,18 +25,9 @@ module P = {
 
 [@react.component]
 let make = () => {
-  let {setCrumbpage}: CrumbContext.store =
-    React.useContext(CrumbContext.storeCtx);
+  useCanvas();
 
-  React.useEffect1(
-    () => {
-      setCrumbpage(_ => "index");
-      None;
-    },
-    [|setCrumbpage|],
-  );
-
-  <div>
+  <div className="content content--canvas">
     <h1 className=Styles.title>
       {js| Hey, I'm Fahmi Frontend developer living in Yogyakarta |js}->s
     </h1>

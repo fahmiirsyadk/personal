@@ -11,11 +11,6 @@ module Styles = {
 
 [@react.component]
 let make = (~children) => {
-  let {crumbpage}: CrumbContext.store =
-    React.useContext(CrumbContext.storeCtx);
-
-  Js.log(crumbpage);
-
   <div className=Styles.wrapper>
     <main className=Styles.container>
       <div className=Styles.spacer />
