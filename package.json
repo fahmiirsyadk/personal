@@ -37,6 +37,6 @@
     "bs:start": "bsb -make-world -w"
   },
   "devDependencies": {
-    "bs-platform": "8.0.2"
+    "bs-platform": "8.0.3"
   }
 }
