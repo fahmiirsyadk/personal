@@ -1,8 +1,11 @@
-[@bs.module "../common/useCanvas"]
-external useCanvas: unit => unit = "useCanvas";
-
 open Util.ReactStuff;
 open Css;
+
+module Canvas = {
+  [@bs.module "components/canvas.js"] [@react.component]
+  external make: unit => React.element = "default";
+};
+
 
 module Styles = {
   let title =
@@ -25,13 +28,11 @@ module P = {
 
 [@react.component]
 let make = () => {
-  useCanvas();
-
-  <div className="content content--canvas">
-    <h1 className=Styles.title>
-      {js| Hey, I'm Fahmi Frontend developer living in Yogyakarta |js}->s
-    </h1>
-  </div>;
+  <>
+  <Canvas />
+  <h1 className=Styles.title>
+     {js| Hey, I'm Fahmi Frontend developer living in Yogyakarta |js}->s </h1>
+  </>
 };
 
 let default = make;

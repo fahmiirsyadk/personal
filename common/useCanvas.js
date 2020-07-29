@@ -122,13 +122,13 @@ function createCanvas() {
     b: document.createElement('canvas')
   };
   canvas.b.style = `
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
     height: 100%;
     z-index: -1;
-	`;
+  `;
   container.appendChild(canvas.b);
   ctx = {
     a: canvas.a.getContext('2d'),
@@ -174,14 +174,15 @@ const setup = () => {
 }
 
 export function useCanvas() {
-  useEffect(() => {
-    window.addEventListener('load', setup)
-    window.addEventListener('resize', resize);
+  const canvasRef =
+    useEffect(() => {
+      window.addEventListener('load', setup)
+      window.addEventListener('resize', resize);
 
-    return () => {
-      window.removeEventListener('resize', resize);
-      window.removeEventListener('load', setup)
+      return () => {
+        window.removeEventListener('resize', resize);
+        window.removeEventListener('load', setup)
 
-    }
-  }, [])
+      }
+    }, [])
 }
