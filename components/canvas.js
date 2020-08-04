@@ -15,7 +15,6 @@ const Canvas = () => {
   useCanvas();
 
   return mounted ? createPortal(<div className="content--canvas"></div>, docRef.current) : (<></>)
-
 }
 
 export default Canvas

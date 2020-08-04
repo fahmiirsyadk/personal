@@ -6,16 +6,15 @@ module Canvas = {
   external make: unit => React.element = "default";
 };
 
-
 module Styles = {
   let title =
     style([
-      fontSize(px(48)),
+      unsafe("font-size", "clamp(1.55rem, 4vw, 100vw)"),
       position(relative),
       top(px(80)),
       margin2(~v=zero, ~h=auto),
       fontWeight(`extraBold),
-      lineHeight(px(62)),
+      lineHeight(`abs(1.25)),
       textAlign(center),
       maxWidth(px(800)),
     ]);
@@ -29,10 +28,11 @@ module P = {
 [@react.component]
 let make = () => {
   <>
-  <Canvas />
-  <h1 className=Styles.title>
-     {js| Hey, I'm Fahmi Frontend developer living in Yogyakarta |js}->s </h1>
-  </>
+    <Canvas />
+    <h1 className=Styles.title>
+      {js| Hey, I'm Fahmi Frontend developer living in Yogyakarta |js}->s
+    </h1>
+  </>;
 };
 
 let default = make;
