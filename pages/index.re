@@ -9,7 +9,7 @@ module Canvas = {
 module Styles = {
   let title =
     style([
-      unsafe("font-size", "clamp(1.55rem, 4vw, 100vw)"),
+      unsafe("fontSize", "clamp(1.55rem, 4vw, 100vw)"),
       position(relative),
       top(px(80)),
       margin2(~v=zero, ~h=auto),
@@ -20,17 +20,12 @@ module Styles = {
     ]);
 };
 
-module P = {
-  [@react.component]
-  let make = (~children) => <p className="mb-2"> children </p>;
-};
-
 [@react.component]
 let make = () => {
   <>
-    <Canvas />
+    // <Canvas />
     <h1 className=Styles.title>
-      {js| Hey, I'm Fahmi Frontend developer living in Yogyakarta |js}->s
+      {js| Hey, I'm Fahmi Irsyad Khairi Frontend Developer |js}->s
     </h1>
   </>;
 };
