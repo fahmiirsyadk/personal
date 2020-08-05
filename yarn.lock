@@ -1590,10 +1590,10 @@ bs-fetch@0.6.1:
   resolved "https://registry.yarnpkg.com/bs-fetch/-/bs-fetch-0.6.1.tgz#f25c4690d1976c07dfb0b6f72753271cbbabcc33"
   integrity sha512-meXUuqTu6quq0X7dW7DmxW8RGiKiONW3n1A9wgXx0KcWHSZuq/PA6C1NoByDiUA5VeE8tYGZ7YXh/uVAl+8pDQ==
 
-bs-platform@8.0.3:
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-8.0.3.tgz#574e41ec04fee381d4c400dac547735368caa48f"
-  integrity sha512-I7wulOPM0/NGamwm9CDh9rGjW1oIKltPwwEIOJrL8DBFRXI8OFSACtWGlpaoOw76Xpf+KcVokr00keS2NlzA3A==
+bs-platform@8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-8.2.0.tgz#f3f4c06d5710a4c782f0ed030b1fe11e74a0a6d7"
+  integrity sha512-quvmUac/ZxGDsT7L5+6RNXrLPvLHkWFownacaqlwVoyAm770bPyupTRU49ALPGk3HpjfD5eE+lpGdOSPtuwJiA==
 
 buffer-from@^1.0.0, buffer-from@^1.1.1:
   version "1.1.1"
@@ -2896,10 +2896,10 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
 
-gentype@3.29.0:
-  version "3.29.0"
-  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.29.0.tgz#e2e399ae6109832eaba83bc9f40cc788f677fdf5"
-  integrity sha512-CWzf1dCqFGEUHyUeZmE8itY9wWodiuOxDHGYC32qHK+KzxbTqTIY/dce9nx59sS9UYQwOqVPUrjfQCqz2TxRxg==
+gentype@3.30.0:
+  version "3.30.0"
+  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.30.0.tgz#02ea801aa31ff13392d91a23febd4174cba414d6"
+  integrity sha512-LWxoPIL+QFzs/KtaVTgJGT8ay48yFRviDnlLPDtiUKu8pV+ll5DY8sM4b2tprfJQlHiUgo/tr2dt3Q+XnMAn1w==
 
 get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
@@ -5528,6 +5528,15 @@ terser@4.8.0:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.0.tgz#63056343d7c70bb29f3af665865a46fe03a0df17"
   integrity sha512-EAPipTNeWsb/3wLPeup1tVPaXfIaU68xMnVdPafIL1TV05OhASArYyIfFvnvJCNrR2NIOvDVNNTFRa+Re2MWyw==
+  dependencies:
+    commander "^2.20.0"
+    source-map "~0.6.1"
+    source-map-support "~0.5.12"
+
+terser@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.0.0.tgz#269640e4e92f15d628de1e5f01c4c61e1ba3d765"
+  integrity sha512-olH2DwGINoSuEpSGd+BsPuAQaA3OrHnHnFL/rDB2TVNc3srUbz/rq/j2BlF4zDXI+JqAvGr86bIm1R2cJgZ3FA==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
