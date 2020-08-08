@@ -2896,10 +2896,10 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
 
-gentype@3.30.0:
-  version "3.30.0"
-  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.30.0.tgz#02ea801aa31ff13392d91a23febd4174cba414d6"
-  integrity sha512-LWxoPIL+QFzs/KtaVTgJGT8ay48yFRviDnlLPDtiUKu8pV+ll5DY8sM4b2tprfJQlHiUgo/tr2dt3Q+XnMAn1w==
+gentype@3.31.0:
+  version "3.31.0"
+  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.31.0.tgz#0f48ecd8d75f34eb70bfe03a22f08489fbc3b594"
+  integrity sha512-S+l+9rpSBUDeMU0OwwXrSEP7LSYpDw/r0E7tX4EqIuCpsrGAaoWRIbi6SLfU2BEitDDQZoE5mIi77Rm6TdyDvw==
 
 get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
