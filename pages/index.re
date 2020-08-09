@@ -11,7 +11,7 @@ module Styles = {
     style([
       unsafe("fontSize", "clamp(1.55rem, 4vw, 100vw)"),
       position(relative),
-      top(px(80)),
+      top(rem(10.0)),
       margin2(~v=zero, ~h=auto),
       fontWeight(`extraBold),
       lineHeight(`abs(1.25)),

@@ -43,8 +43,8 @@ let make = (props: props): React.element => {
     globalStyles
     <Provider>
       {switch (Next.Router.useRouter().route) {
-       | "/" => <SecondaryLayout> <div> content </div> </SecondaryLayout>
-       | _ => <MainLayout> content </MainLayout>
+       | "/" => <SecondaryLayout> <Meta /> <div> content </div> </SecondaryLayout>
+       | _ => <MainLayout> <Meta /> content </MainLayout>
        }}
     </Provider>
   </CacheProvider>;

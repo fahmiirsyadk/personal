@@ -8,6 +8,8 @@ module Styles = {
       display(`flex),
       justifyContent(`spaceBetween),
       alignContent(`center),
+      fontSize(rem(1.2)),
+      fontWeight(medium)
     ]);
 
   let headerMenu =
@@ -17,7 +19,9 @@ module Styles = {
       selector(
         "li",
         [
-          margin2(~v=zero, ~h=px(10)),
+          fontWeight(normal),
+          margin2(~v=zero, ~h=rem(1.0)),
+          transition(~duration=350, ~delay=0, ~timingFunction=ease, "all"),
           selector(
             "a",
             [textDecoration(none), unsafe("color", "var(--color-text)")],
