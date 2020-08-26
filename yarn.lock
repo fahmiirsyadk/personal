@@ -1588,10 +1588,10 @@ bs-css@13.0.0:
   resolved "https://registry.yarnpkg.com/bs-css/-/bs-css-13.0.0.tgz#1cc53d9403abbb97cd9d6c8ee9574eec03c2c3a0"
   integrity sha512-GIa+sS6RftSmr/2BROnn1cJfv1SJSnwBlVZ4sONsaDtEH1dQ5IfCSHz3J+bHoiVYQtQZJFqX/EjgCzUu5v6Vcw==
 
-bs-fetch@0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/bs-fetch/-/bs-fetch-0.6.1.tgz#f25c4690d1976c07dfb0b6f72753271cbbabcc33"
-  integrity sha512-meXUuqTu6quq0X7dW7DmxW8RGiKiONW3n1A9wgXx0KcWHSZuq/PA6C1NoByDiUA5VeE8tYGZ7YXh/uVAl+8pDQ==
+bs-fetch@0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/bs-fetch/-/bs-fetch-0.6.2.tgz#37d982e9f79b9bc44c23e87ae78ccbee1f869adf"
+  integrity sha512-VXEjp8kY3vHPckaoy3d96Bx0KYjJAPLNISBwfpwMN26K6DtuZYwI2HKhx7zeHBajz1bRArfx7O8OOLcdtujMvg==
 
 bs-platform@8.2.0:
   version "8.2.0"
