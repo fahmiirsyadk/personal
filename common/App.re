@@ -1,17 +1,11 @@
 open Css;
-
+open Lib;
 type pageProps = {.};
 
 [@bs.module "../components/theme/global.js"]
 external globalStyles: 'a = "globalStyles";
 module PageComponent = {
   type t = React.component(pageProps);
-};
-
-module CacheProvider = {
-  [@bs.module "@emotion/core"] [@react.component]
-  external make: (~value: 'a, ~children: React.element) => React.element =
-    "CacheProvider";
 };
 
 type props = {
@@ -39,13 +33,19 @@ let make = (props: props): React.element => {
 
   let content = React.createElement(component, pageProps);
 
-  <CacheProvider value=cache>
-    globalStyles
-    <Provider>
-      {switch (Next.Router.useRouter().route) {
-       | "/" => <SecondaryLayout> <Meta /> <div> content </div> </SecondaryLayout>
-       | _ => <MainLayout> <Meta /> content </MainLayout>
-       }}
-    </Provider>
-  </CacheProvider>;
+  <>
+    <GoogleFonts
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+    <CacheProvider value=cache>
+      globalStyles
+      <Provider>
+        {switch (Next.Router.useRouter().route) {
+         | "/" =>
+           <SecondaryLayout> <Meta /> <div> content </div> </SecondaryLayout>
+         | _ => <MainLayout> <Meta /> content </MainLayout>
+         }}
+      </Provider>
+    </CacheProvider>
+  </>;
 };

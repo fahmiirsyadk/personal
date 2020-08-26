@@ -4,12 +4,6 @@ import {
   MagicScriptTag,
   FallbackStyles,
 } from "~/components/theme/inlineElement";
-/*
-This code comes from https://joshwcomeau.com/gatsby/dark-mode/
-It uses the users' prefers-color-scheme media query to inline
-CSS variables into the :root of the page before any content is 
-rendered.
-*/
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -23,6 +17,7 @@ export default class MyDocument extends Document {
 
     return (
       <Html lang="id">
+        
         <Head>
           <style
             data-emotion-css={ids.join(" ")}

@@ -1,29 +1,25 @@
 open Util.ReactStuff;
 open Css;
 
-module Canvas = {
-  [@bs.module "components/canvas.js"] [@react.component]
-  external make: unit => React.element = "default";
-};
-
 module Styles = {
   let title =
     style([
       unsafe("fontSize", "clamp(1.55rem, 4vw, 100vw)"),
       position(relative),
-      top(rem(10.0)),
+      top(rem(8.3333)),
       margin2(~v=zero, ~h=auto),
       fontWeight(`extraBold),
-      lineHeight(`abs(1.25)),
+      lineHeight(`abs(1.55)),
       textAlign(center),
-      maxWidth(px(800)),
+      fontFamily(
+        `custom("'Libre Baskerville','Times New Roman',sans-serif"),
+      ),
     ]);
 };
 
 [@react.component]
 let make = () => {
   <>
-    // <Canvas />
     <h1 className=Styles.title>
       {js| Hey, I'm Fahmi Irsyad Khairi Frontend Developer |js}->s
     </h1>
