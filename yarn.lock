@@ -848,9 +848,10 @@
     "@emotion/utils" "0.11.3"
     "@emotion/weak-memoize" "0.2.5"
 
-"@emotion/core@10.0.28":
-  version "10.0.28"
-  resolved "https://registry.yarnpkg.com/@emotion/core/-/core-10.0.28.tgz#bb65af7262a234593a9e952c041d0f1c9b9bef3d"
+"@emotion/core@10.0.35":
+  version "10.0.35"
+  resolved "https://registry.yarnpkg.com/@emotion/core/-/core-10.0.35.tgz#513fcf2e22cd4dfe9d3894ed138c9d7a859af9b3"
+  integrity sha512-sH++vJCdk025fBlRZSAhkRlSUoqSqgCzYf5fMOmqqi3bM6how+sQpg3hkgJonj8GxXM4WbD7dRO+4tegDB9fUw==
   dependencies:
     "@babel/runtime" "^7.5.5"
     "@emotion/cache" "^10.0.27"
@@ -1574,16 +1575,18 @@ browserslist@^4.0.0, browserslist@^4.11.1, browserslist@^4.8.5:
     node-releases "^1.1.53"
     pkg-up "^2.0.0"
 
-bs-css-emotion@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/bs-css-emotion/-/bs-css-emotion-1.2.0.tgz#44c0b74123744d231bc36ac821cd6269f29649a3"
+bs-css-emotion@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/bs-css-emotion/-/bs-css-emotion-2.0.0.tgz#c5859c17519b10ff368255e8140ef46c1be198d4"
+  integrity sha512-V8KlGKhCebgik3fmGuUVknkHtklkthSwcMLtTuTK6vrbHBjnwtp2aIsgG9NqZA1+g0TPUrhk2yyED0CCQ7qZzw==
   dependencies:
-    bs-css "12.2.0"
+    bs-css "13.0.0"
     emotion "^10.0.7"
 
-bs-css@12.2.0:
-  version "12.2.0"
-  resolved "https://registry.yarnpkg.com/bs-css/-/bs-css-12.2.0.tgz#926e758d7f95c02f516505ecdcd855e1d9dcb2a0"
+bs-css@13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/bs-css/-/bs-css-13.0.0.tgz#1cc53d9403abbb97cd9d6c8ee9574eec03c2c3a0"
+  integrity sha512-GIa+sS6RftSmr/2BROnn1cJfv1SJSnwBlVZ4sONsaDtEH1dQ5IfCSHz3J+bHoiVYQtQZJFqX/EjgCzUu5v6Vcw==
 
 bs-fetch@0.6.1:
   version "0.6.1"
@@ -2907,10 +2910,10 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
 
-gentype@3.31.0:
-  version "3.31.0"
-  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.31.0.tgz#0f48ecd8d75f34eb70bfe03a22f08489fbc3b594"
-  integrity sha512-S+l+9rpSBUDeMU0OwwXrSEP7LSYpDw/r0E7tX4EqIuCpsrGAaoWRIbi6SLfU2BEitDDQZoE5mIi77Rm6TdyDvw==
+gentype@3.32.0:
+  version "3.32.0"
+  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.32.0.tgz#ac770012c1a7dcf58ab58261f3fb1320dfa74d78"
+  integrity sha512-5KPRz+ztt/ZzYrTsvcxSGg4+P9e4Zq1TN5D8u5VAuRX1ERZyiBRD7YztUDMUwlVmi8PX3fV5vJTE5KdigGdiBg==
 
 get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
