@@ -11,5 +11,3 @@ module GoogleFonts = {
   [@bs.module "next-google-fonts"] [@react.component]
   external make: (~href: string) => React.element = "default";
 };
-
-/* href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Libre+Baskerville:wght@700&display=swap" */

@@ -9,17 +9,19 @@ module Styles = {
       justifyContent(`spaceBetween),
       alignContent(`center),
       fontSize(rem(1.2)),
-      fontWeight(medium)
+      fontWeight(medium),
     ]);
 
   let headerMenu =
     style([
       display(`flex),
+      alignItems(center),
       listStyleType(none),
       selector(
         "li",
         [
           fontWeight(normal),
+          fontSize(rem(1.1)),
           margin2(~v=zero, ~h=rem(1.0)),
           transition(~duration=350, ~delay=0, ~timingFunction=ease, "all"),
           selector(
