@@ -29,8 +29,8 @@
   "scripts": {
     "dev": "run-p bs:start next:dev",
     "next:dev": "next",
-    "build": "run-s now-build next build",
-    "now-build": "bsb -clean-world -make-world && next build",
+    "next:build": "next build",
+    "build": "run-s bs:build next:build",
     "export": "next export",
     "start": "next start -p $PORT",
     "bs:build": "bsb -make-world",
