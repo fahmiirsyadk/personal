@@ -8,7 +8,7 @@
     "@emotion/core": "10.0.35",
     "@emotion/styled": "10.0.27",
     "@glennsl/bs-json": "5.0.2",
-    "@next/bundle-analyzer": "9.5.2",
+    "@next/bundle-analyzer": "9.5.5",
     "@zeit/next-css": "1.0.1",
     "bs-css-emotion": "2.0.0",
     "bs-fetch": "0.6.1",
