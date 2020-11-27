@@ -1591,18 +1591,18 @@ browserslist@^4.11.1, browserslist@^4.8.5:
     node-releases "^1.1.53"
     pkg-up "^2.0.0"
 
-bs-css-emotion@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/bs-css-emotion/-/bs-css-emotion-2.0.0.tgz#c5859c17519b10ff368255e8140ef46c1be198d4"
-  integrity sha512-V8KlGKhCebgik3fmGuUVknkHtklkthSwcMLtTuTK6vrbHBjnwtp2aIsgG9NqZA1+g0TPUrhk2yyED0CCQ7qZzw==
+bs-css-emotion@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/bs-css-emotion/-/bs-css-emotion-2.2.0.tgz#74455c629472bf29e8ccaa175764fa26f1436491"
+  integrity sha512-gt+GLSeclCHJUK1yp11ahDukrMqHjXUMo+dqWWS96eWCxQKgyw1LrqEADB9LtNjbeVr2KeXbKe6k9w/oaipT/w==
   dependencies:
-    bs-css "13.0.0"
+    bs-css "13.2.0"
     emotion "^10.0.7"
 
-bs-css@13.0.0:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/bs-css/-/bs-css-13.0.0.tgz#1cc53d9403abbb97cd9d6c8ee9574eec03c2c3a0"
-  integrity sha512-GIa+sS6RftSmr/2BROnn1cJfv1SJSnwBlVZ4sONsaDtEH1dQ5IfCSHz3J+bHoiVYQtQZJFqX/EjgCzUu5v6Vcw==
+bs-css@13.2.0:
+  version "13.2.0"
+  resolved "https://registry.yarnpkg.com/bs-css/-/bs-css-13.2.0.tgz#c28c460b548514f455e7c6ef292bf939aadaeb93"
+  integrity sha512-jbWPoWmNXZO/OrTKWjL4EMTrjal37vHI4QU7gjAsi0+/nMdyub+TLw70v6PWjXLpBWavt3WnGJzINYevXOu5rA==
 
 bs-fetch@0.6.1:
   version "0.6.1"
