@@ -2785,10 +2785,10 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
 
-gentype@3.32.0:
-  version "3.32.0"
-  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.32.0.tgz#ac770012c1a7dcf58ab58261f3fb1320dfa74d78"
-  integrity sha512-5KPRz+ztt/ZzYrTsvcxSGg4+P9e4Zq1TN5D8u5VAuRX1ERZyiBRD7YztUDMUwlVmi8PX3fV5vJTE5KdigGdiBg==
+gentype@3.41.0:
+  version "3.41.0"
+  resolved "https://registry.yarnpkg.com/gentype/-/gentype-3.41.0.tgz#95f17272cadc7542275cc6e377f4dfcecaa2d443"
+  integrity sha512-fpdB3QOibhpB9wPK+ZGS5d84G6w3fB/BCEvt/G81WOZspC2Prh9QN7doifkBP6o1MYIfOAR98sfyvfKyC1fatQ==
 
 get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
